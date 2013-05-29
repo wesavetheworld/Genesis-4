@@ -1,0 +1,12 @@
+/*
+
+	Global stylesheet for Genesis
+
+*/
+
+@import url("style.css"); 			/* Overall style  */
+@import url("tipsy.css");  			/* Tooltip style  */
+@import url("ui.css");	   			/* User Interface */
+@import url("typography.css");		/* Typography */
+@import url("font-awesome.min.css");/* Icon Font */
+@import url("");

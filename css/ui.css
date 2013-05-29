@@ -1,0 +1,142 @@
+/*
+
+	User Interface for Genesis
+
+*/
+
+input, select, textarea {
+	height: 25px;
+	color: #333333;
+	border: 1px solid #ddd;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	background-color:#fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+
+input:hover,
+select:hover,
+textarea:hover {
+	border-color: #ccc;
+}
+
+.formbutton, #submit {
+	border: 1px solid #ccc;
+	background: #fcfcfc; /* Old browsers 
+	background: -moz-linear-gradient(top,  #ffffff 54%, #f2f2f2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(54%,#ffffff), color-stop(100%,#f2f2f2));
+	background: -webkit-linear-gradient(top,  #ffffff 54%,#f2f2f2 100%);
+	background: -o-linear-gradient(top,  #ffffff 54%,#f2f2f2 100%);
+	background: -ms-linear-gradient(top,  #ffffff 54%,#f2f2f2 100%);
+	background: linear-gradient(to bottom,  #ffffff 54%,#f2f2f2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 );  */
+	color: #555;
+	font-weight: bold;
+	border-radius: 2px;
+	padding: 0 15px;
+	font-size: 12px;
+	font-family: Tahoma, Geneva, sans-serif;
+	overflow: visible;
+	cursor: pointer;
+	height: 28px;
+	
+	-webkit-box-shadow: 0px 2px 0px rgba(0,0,0,.2);
+	-moz-box-shadow: 0px 2px 0px rgba(0,0,0,.2);
+	box-shadow: 0px 2px 0px rgba(0,0,0,.2);
+	
+	-webkit-transition: background-color 0.15s ease-in-out;
+	-moz-transition: background-color 0.15s ease-in-out;
+	transition: background-color 0.15s ease-in-out;
+}
+
+.formbutton:hover,
+#submit:hover {
+	border-color: #bababa;
+	color: #000;
+	background: #fff;
+}
+
+.formbutton:active,
+#submit:active {
+	/*border-color: #458D3A;*/
+	-webkit-box-shadow: inset 0px 2px 2px #ddd;
+	-moz-box-shadow: 	inset 0px 2px 2px #ddd;
+	box-shadow: 		inset 0px 2px 2px #ddd;
+	
+	box-shadow: 0px 1px 0px rgba(0,0,0,.2);
+	box-shadow: 0px 1px 0px rgba(0,0,0,.2);
+	box-shadow: 0px 1px 0px rgba(0,0,0,.2);
+	
+	-webkit-transform: translate(0,1px);
+	-moz-transform: translate(0,1px);
+	transform: translate(0,1px);
+}
+
+.loginform {
+	position: relative;
+}
+
+.loginform input {
+	display: block;
+	height: 25px;
+}
+
+.loginsubmit {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.pagination {margin-top: 10px; margin-bottom: 10px;}
+
+.pagination ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.pagination ul li {
+	float: left;
+	display: block;
+	padding: 0;
+	margin: 0 3px;
+}
+
+.pagination ul li a {
+	display: block;
+	padding: 5px 6px;
+	color: #555;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Lucida Grande','Lucida Sans Unicode',Geneva,Verdana,Sans-Serif;
+	text-decoration: none;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 54%, #f2f2f2 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(54%,#ffffff), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 54%,#f2f2f2 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 54%,#f2f2f2 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 54%,#f2f2f2 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 54%,#f2f2f2 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+}
+
+.pagination ul li a:hover {
+	border-color: #bababa;
+	color: #000;
+}
+
+.pagination ul li a:active {
+	border-color: #458D3A;
+	-moz-box-shadow: 	inset 0px 2px 2px #ddd;
+	-webkit-box-shadow: inset 0px 2px 2px #ddd;
+	box-shadow: 		inset 0px 2px 2px #ddd;
+}
+
+#commentform label {
+	display: block;
+}
